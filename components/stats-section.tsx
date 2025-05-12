@@ -3,9 +3,9 @@ import { motion } from "framer-motion"
 
 export function StatsSection() {
   const stats = [
-    { value: "130M+", label: "Weekly downloads" },
-    { value: "$500+", label: "Enterprise customers" },
-    { value: "13K+", label: "GitHub stars" },
+    { value: "10K+", label: "Lorem ipsum" },
+    { value: "20M+", label: "Dolor sit amet" },
+    { value: "5K+", label: "Consectetur" },
   ]
 
   return (

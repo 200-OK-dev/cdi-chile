@@ -8,18 +8,10 @@ import { FeatureCard } from "@/components/feature-card"
 import { StatsSection } from "@/components/stats-section"
 import { TestimonialSection } from "@/components/testimonial-section"
 import { CommunitySection } from "@/components/community-section"
-import clsx from 'clsx';
 import { motion } from "framer-motion"
-import Image from "next/image"
 
 
-const vanGoghButtonClass = clsx(
-  'px-6', 'py-3', 'text-lg', 'font-bold', 'text-yellow-100',
-  'bg-gradient-to-br', 'from-yellow-600', 'via-blue-500', 'to-green-500',
-  'border-4', 'border-blue-900', 'rounded-2xl', 'shadow-lg',
-  'hover:shadow-2xl', 'hover:scale-105', 'transform', 'transition',
-  'duration-300', 'ease-in-out', 'hover:bg-yellow-500'
-);
+
 
 export default function Home() {
   return (
@@ -40,14 +32,14 @@ export default function Home() {
         className="max-w-[600px]"
       >
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4">
-          Core building blocks
+          Lorem ipsum dolor sit amet
           <br />
-          for your design system
+          consectetur adipiscing elit
         </h1>
         <p className="text-lg text-muted-foreground mb-8">
-          An open-source UI component library for building high-quality, accessible design systems and web apps.
+          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <Button variant="outline">Button</Button>
+        <Button variant="outline">Lorem Button</Button>
         
       </motion.div>
     </div>
@@ -119,7 +111,7 @@ export default function Home() {
         return (
           <section className="py-16 md:py-24">
             <div className="container px-4 md:px-6">
-              <h2 className="text-3xl font-bold text-center mb-12">Beautifully crafted components</h2>
+              <h2 className="text-3xl font-bold text-center mb-12">Lorem ipsum dolor sit amet</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 {firstRow.map((card, idx) => (
                   <Card key={idx} className={`p-6 ${card.bg} border-0`}>

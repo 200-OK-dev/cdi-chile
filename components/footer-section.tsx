@@ -6,33 +6,33 @@ export function FooterSection() {
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-bold mb-4">Radix</h3>
+            <h3 className="font-bold mb-4">Lorem Ipsum</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Home
+                  Lorem
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  About
+                  Ipsum
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Blog
+                  Dolor
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Careers
+                  Sit
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Primitives</h3>
+            <h3 className="font-bold mb-4">Amet</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
@@ -41,24 +41,24 @@ export function FooterSection() {
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Components
+                  Adipiscing
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Examples
+                  Elit
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Changelog
+                  Sed
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Colors</h3>
+            <h3 className="font-bold mb-4">Tempor</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
@@ -67,43 +67,43 @@ export function FooterSection() {
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Palette
+                  Incididunt
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Scale
+                  Labore
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Contrast
+                  Magna
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="font-bold mb-4">Community</h3>
+            <h3 className="font-bold mb-4">Aliqua</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Discord
+                  Ut
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  Twitter
+                  Enim
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  GitHub
+                  Minim
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-                  YouTube
+                  Veniam
                 </Link>
               </li>
             </ul>
@@ -111,16 +111,16 @@ export function FooterSection() {
         </div>
 
         <div className="mt-12 pt-8 border-t flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Cdi Chile.</p>
+          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Lorem Ipsum.</p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-              Privacy Policy
+              Lorem Policy
             </Link>
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-              Terms of Service
+              Ipsum Service
             </Link>
             <Link href="#" className="text-sm text-muted-foreground hover:text-foreground">
-              Cookie Policy
+              Dolor Policy
             </Link>
           </div>
         </div>
