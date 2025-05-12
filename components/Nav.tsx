@@ -18,15 +18,15 @@ export function NavFullWidth() {
   
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
-      <div className="max-w-screen-2xl mx-auto flex h-16 items-center px-4">
+      <div className="max-w-screen-2xl mx-auto flex h-16 items-center justify-between px-4">
         {/* Logo a la izquierda */}
-        <div className="flex-shrink-0 mr-8">
+        <div className="flex-shrink-0">
           <a href="/" className="flex items-center space-x-2">
             <span className="inline-block font-bold">Cdi Chile</span>
           </a>
         </div>
 
-        {/* Links centrados */}
+        {/* Links centrados - solo visibles en desktop */}
         <div className="hidden md:flex flex-1 justify-center">
           <nav className="flex items-center space-x-6">
             {navLinks.map(link => (
@@ -42,21 +42,19 @@ export function NavFullWidth() {
         </div>
 
         {/* Controles a la derecha */}
-        <div className="flex-shrink-0 ml-8">
-          <nav className="flex items-center space-x-2">
-            <ThemeSwitcher />
-            <button
-              className="md:hidden p-2 rounded focus:outline-none focus:ring-2 focus:ring-primary"
-              aria-label="Abrir menú"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="3" y1="12" x2="21" y2="12"/>
-                <line x1="3" y1="6" x2="21" y2="6"/>
-                <line x1="3" y1="18" x2="21" y2="18"/>
-              </svg>
-            </button>
-          </nav>
+        <div className="flex items-center space-x-2">
+          <ThemeSwitcher />
+          <button
+            className="md:hidden p-2 rounded focus:outline-none focus:ring-2 focus:ring-primary"
+            aria-label="Abrir menú"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <svg width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"/>
+              <line x1="3" y1="6" x2="21" y2="6"/>
+              <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
         </div>
       </div>
 
